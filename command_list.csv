@@ -1,0 +1,105 @@
+    1  dir
+    2  clear
+    3  cd Download
+    4  lc
+    5  dir
+    6  cd Downloads
+    7  ddir
+    8  dir
+    9  cd ..
+   10  cd Desctop
+   11  cd Desktop
+   12  dir
+   13  mcdir Lesson
+   14  mkdir Lesson
+   15  dir
+   16  touch
+   17  touch empty.txt
+   18  clear
+   19  help vim
+   20  vim empty.txt
+   21  vim empty.txt
+   22  nano empty.txt
+   23  cat empty.txt
+   24  pwd
+   25  cp /c/Users/Nimec/Desktop/empty.txt /c/Users/Nimec/Downloads
+   26  clear
+   27  df -h
+   28  cd Desktop
+   29  touch text.txt
+   30  chmod 777 text.txt
+   31  clear
+   32  touch HW09
+   33  mkdir HW09
+   34  cd HW09
+   35  clear
+   36  git config --global user.name "Nimec"
+   37  git config --global user.email jahleb123456@gmail.com
+   38  git clone https://github.com/Nimec000/HW09_GoIT.git
+   39  clear
+   40  cd ..
+   41  mkdir HW10
+   42  cd HW10
+   43  git clone https://github.com/Nimec000/HW_10.git
+   44  dir
+   45  HW_10
+   46  cd HW_10
+   47  touch text.ignore.txt
+   48  git status
+   49  git add text.ignore.txt
+   50  git status
+   51  git commit -m "New file created"
+   52  clear
+   53  commit
+   54  commit list
+   55  git commit list
+   56  git log
+   57  cd Desctop
+   58  cd Desktop
+   59  mkdir HW10
+   60  cd HW10
+   61  git clone https://github.com/Nimec000/HW_10.git
+   62  dir
+   63  cd HW_10
+   64  touch text.ignore.txt
+   65  git log
+   66  clear
+   67  cd Desktop
+   68  cd HW10
+   69  git clone https://github.com/Nimec000/HW_10.git
+   70  touch text.ignore.txt
+   71  cd Desktop
+   72  cd HW10
+   73  git clone https://github.com/Nimec000/HW_10.git
+   74  cd HW_10
+   75  touch text.ignore.txt
+   76  nano .gitignore
+   77  cat .gitignore\
+   78  git status
+   79  git add .gitignore
+   80  git status
+   81  git commit -m "Task1"
+   82  touch main_test.txt
+   83  git status
+   84  git add main_test.txt
+   85  git commit -m "Task2"
+   86  git checkout -b develop
+   87  git branch
+   88  touch develop_test.txt
+   89  git status
+   90  git add develop_test.txt
+   91  git status
+   92  nano develop_test.txt
+   93  nano develop_test.txt
+   94  git commit -m "Task3.1"
+   95  nano develop_test.txt
+   96  git status
+   97  git add develop_test.txt
+   98  git status
+   99  git commit -m "Task3.2"
+  100  git checkout main
+  101  git branch
+  102  git merge develop
+  103  git branch
+  104  git log
+  105  history > command_list.csv
